@@ -4,8 +4,14 @@
 
 We consider a new approach to extracting information from dendograms in the biological literature representing phylogenetic trees. Existing algorithmic approaches to extract these relationships rely on tracing tree contours and are very sensitive to image quality issues, but manual approaches require significant human effort and cannot be used at scale. We introduce PhyloParser, a fully automated, end-to-end system for automatically extracting species relationships from phylogenetic tree diagrams using a multi-modal approach to digest diverse tree styles. Our approach automatically identifies phylogenetic tree figures in the scientific literature, extracts the key components of tree structure, reconstructs the tree, and recovers the species relationships. We use multiple methods to extract tree components with high recall, then filter false positives by applying topological heuristics about how these components fit together. We present an evaluation on a real-world dataset to quantitatively and qualitatively demonstrate the efficacy of our approach. Our classifier achieves 89% recall and 99% precision, with a low average error rate relative to previous approaches. We aim to use PhyloParser to build a linked, open, comprehensive database of phylogenetic information that covers the historical literature as well as current data, and then use this resource to identify areas of disagreement and poor coverage in the biological literature.
 
-Website: http://viziometrics.org/about/
-Paper Link: https://staff.washington.edu/sephon/publication/LeeICDAR2017.pdf
+### VizioMetrics Project Website
+http://viziometrics.org/about/
+
+### ICDAR2017 Paper
+ttps://staff.washington.edu/sephon/publication/LeeICDAR2017.pdf
+
+### Bibtex
+```sh
 Bibtex:
 	@article{lee2017phyloparser,
                   author = {Lee, Poshen and Yang, T. Sean and West, Jevin and Howe, Bill},
@@ -13,7 +19,7 @@ Bibtex:
                   booktitle = {Document Analysis and Recognition (ICDAR), 2017 14th International Conference on},
                   year = {2017}
                 }
-
+```
 
 ## Requirements
 ```sh
