@@ -8,7 +8,7 @@ We consider a new approach to extracting information from dendograms in the biol
 http://viziometrics.org/about/
 
 ### ICDAR2017 Paper
-ttps://staff.washington.edu/sephon/publication/LeeICDAR2017.pdf
+https://staff.washington.edu/sephon/publication/LeeICDAR2017.pdf
 
 ### Bibtex
 ```sh
